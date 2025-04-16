@@ -147,6 +147,23 @@ a img{
     background: url(../images/fond/science.png);
 }
 
+.web img{
+    width: 50%;
+}
+
+.web a span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web .lien_float{
+    margin: 50px;
+    background-color: darkred;
+    padding: 10px;
+    text-align: center;
+}
+
 
 
 
