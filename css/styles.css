@@ -74,7 +74,9 @@ header a{
     transform: translateX(-50%);
 }
 
-
+h1{
+    font: normal 6.25rem 'Monoton', sans-serif;
+}
 
 /*---------------------------------------
                 Section Générale
