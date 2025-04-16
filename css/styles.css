@@ -19,7 +19,7 @@ html{
 body{
     background: url(../images/fond/global.png) repeat;
     background-color: black;
-    font: normal 1rem 'Oranienbaum', sans-serif;
+    font: normal 16px 'Oranienbaum', sans-serif;
     color: white;
 }
 
@@ -56,14 +56,23 @@ header, section{
     width: 100vw;
 }
 
-/*
-a{
+header, section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    position: relative;
+    text-align: center;
+}
+
+header a{
+    position: absolute;
+    bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
 }
-*/
-
-
 
 
 
