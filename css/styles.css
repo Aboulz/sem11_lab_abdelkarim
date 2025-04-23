@@ -174,6 +174,31 @@ a img{
              Section photographie
  ---------------------------------------*/
 
+.photos{
+    background: url(../images/fond/fond.jpg) no-repeat;
+    background-size: cover;
+}
+
+.photos img{
+    width: 30%;
+}
+
+.photos a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photos .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
 
